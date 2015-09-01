@@ -1,0 +1,153 @@
+.btnvalidoC{
+	font-size: .8em;
+	font-weight:bold;
+    background:lightblue;
+	border-color: rgb(255,255,255,.8);
+	box-shadow: rgba(0,0,0,1) 5px 5px 10px;
+	border-radius: 0.5em;
+	margin-top: .4em;
+	margin-bottom: .9em;
+	color: black;
+	width: auto;
+	padding: 0;
+}
+
+.btnvalidaC{ 
+	font-size: .8em;
+	font-weight:bold;
+    background: peru;
+	border-color: rgb(255,255,255,.8);
+	box-shadow: rgba(0,0,0,1) 5px 5px 10px;
+	border-radius: 0.5em;
+	margin-top: .4em;
+	margin-bottom: .9em;
+	color: black;
+	width: auto;
+	padding: 0;
+}
+
+.btnObserSup{ 
+	font-size: .8em;
+	font-weight:bold;
+	background: transparent;
+	border-color: black;
+	box-shadow: rgba(0,0,0,1) 5px 5px 10px;
+	border-radius: 0.5em;
+	margin:0 0 1em 30%;
+	color: black;
+	width: auto;
+	padding: 0;
+	font-style: italic;	
+}
+
+#op1JP a:hover {
+	border-radius: 5px;
+    background-color: rgba(0,0,0,.5);
+    color: white;
+}
+
+.margenJP{
+	margin-top: 2em;
+}
+
+.margenJP2{
+	margin-top: 2em;
+	margin-left: .5em;
+}
+
+#subMenuObras{
+/*	background: rgba(5,55,25,0.8);	
+	color:#EEE;**/	
+	font-weight:bold;
+	padding: 0;
+	margin: 0;
+	position:absolute;
+	top:136.5px;
+	left:45px;
+	/*width:100%;*/
+}
+
+#subMenuObras ul
+{	
+	list-style:none;
+	padding:0;
+	margin:0;	
+}
+
+#subMenuObras li
+{	
+	display:inline-block;
+	margin: 0;
+	padding: 0 .3em 0em 1em;
+	font-size:1.5em;
+	color: brown;
+}
+
+#subMenuObras li a
+{
+	/*background:#885;
+	*/border-radius: 0.5em;
+	color:brown;
+	display:inline-block;
+	margin: 0 0.1em 0 0;
+	padding:0.1em 0.1em;
+	text-decoration:none;
+	transition:all 0.1s ease;
+	-webkit-transition:all 1s ease;
+}
+
+#subMenuObras li a:hover
+{
+	background: #fff;
+	color: black;
+	transform: scale(1.2) rotate(5deg);
+	-webkit-transform: scale(1.2) rotate(5deg);
+}
+
+#dataTable button { 
+	font-size: .9em;
+	border-color: rgb(255,255,255,.8);
+	box-shadow: rgba(0,0,0,1) 5px 5px 10px;
+	border-radius: 0.5em;
+	padding: 0;
+/*	transform: scale(1.0) rotate(5deg);
+	-webkit-transform: scale(1.0) rotate(5deg);
+	transition:all 0.1s ease;*/
+}
+
+#dataTable button:hover
+{
+	transform: scale(0.9) rotate(0deg);
+	-webkit-transform: scale(0.9) rotate(0deg);
+	transition:all 0.1s ease;
+}
+
+hr {
+  clear: both; 
+  float: none; 
+  width: 100%; 
+  height: 1px;
+  margin: 1.4em 0;
+  border: none; 
+  background: #ddd;
+  background-image: -webkit-gradient(
+      linear,
+      left bottom,
+      right bottom,
+      color-stop(0, rgb(255,255,255)),
+      color-stop(0.1, rgb(221,221,221)),
+      color-stop(0.9, rgb(221,221,221)),
+      color-stop(1, rgb(255,255,255))
+  );
+  background-image: -moz-linear-gradient(
+      left center,
+      rgb(255,255,255) 0%,
+      rgb(221,221,221) 10%,
+      rgb(221,221,221) 90%,
+      rgb(255,255,255) 100%
+  );
+}
+
+#dividef {
+  background: gray;  
+}
